@@ -1,0 +1,13 @@
+package com.jenahw.bitsassign;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class BitsAssignmentApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(BitsAssignmentApplication.class, args);
+    }
+
+}

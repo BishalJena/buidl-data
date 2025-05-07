@@ -1,0 +1,4 @@
+package com.jenahw.bitsassign.repository;
+
+public class AuthorRepository {
+}
