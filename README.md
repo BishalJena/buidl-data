@@ -61,11 +61,25 @@ Run the tests using Maven:
 ## 📦 Project Structure
 
 ```
-src/
-├── main/
-│   ├── java/        # Java source files
-│   └── resources/   # Configuration files
-└── test/           # Test files
+buidl-data
+├── README.md
+├── docker-compose.yaml
+├── mvnw
+├── mvnw.cmd
+├── pom.xml
+├── src
+│   ├── main
+│   │   ├── java
+│   │   ├── resources
+│   │   └── webapp
+│   └── test
+│       └── java
+└── target
+    ├── classes
+    │   ├── application.properties
+    │   └── com
+    └── test-classes
+        └── com
 ```
 
 ## 🔧 Dependencies
